@@ -23,6 +23,7 @@ class PlainColorFormatter(PlainFormatter):
 
     SHOW_ALIGNED_KEYWORDS = True
     SHOW_TAGS = True
+    SHOW_MULTI_LINE = True
 
     def __init__(self, stream_opener, config, **kwargs):
         super(PlainColorFormatter, self).__init__(
